@@ -1,3 +1,3 @@
-module github.com/wowchemy/wowchemy-block-starter
+module github.com/shoginn/wowchemy-blocks-instagram-behold
 
 go 1.19
