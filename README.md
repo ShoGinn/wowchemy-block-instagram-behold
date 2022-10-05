@@ -9,7 +9,7 @@
    ```yaml
    module:
      imports:
-       - path: github.com/shoginn/wowchemy-blocks-instagram-behold
+       - path: github.com/shoginn/wowchemy-block-instagram-behold
    ```
 
 ## Example Implementation
