@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/ShoGinn/wowchemy-block-instagram-behold/compare/v3.0.0...v3.0.1) (2022-10-29)
+
+
+### Bug Fixes
+
+* update go.mod ([95da7db](https://github.com/ShoGinn/wowchemy-block-instagram-behold/commit/95da7db126c5f905b1d1daf145a6ca8343480c9d))
+
 ## [3.0.0](https://github.com/ShoGinn/wowchemy-block-instagram-behold/compare/v2.0.1...v3.0.0) (2022-10-29)
 
 
