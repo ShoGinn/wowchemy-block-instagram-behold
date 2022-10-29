@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/ShoGinn/wowchemy-block-instagram-behold/compare/v2.0.0...v2.0.1) (2022-10-29)
+
+
+### Bug Fixes
+
+* update version ([c25b9dd](https://github.com/ShoGinn/wowchemy-block-instagram-behold/commit/c25b9dd7d9b24f7c023653fdfc9e7f91e53c3cb1))
+
 ## [2.0.0](https://github.com/ShoGinn/wowchemy-block-instagram-behold/compare/v1.0.0...v2.0.0) (2022-10-29)
 
 
