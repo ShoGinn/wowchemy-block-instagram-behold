@@ -9,7 +9,8 @@
   "homepage": "https://github.com/shoginn/wowchemy-block-instagram-behold/tree/main/",
   "scripts": {
     "prepare": "husky install",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "update:deps": "npx ncu && npm install"
   },
   "lint-staged": {
     "*.md": [
@@ -75,14 +76,15 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "cspell": "^6.12.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "cspell": "^6.31.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "npm-check-updates": "^16.10.12",
+    "prettier": "^2.8.8",
     "prettier-plugin-go-template": "^0.0.13",
-    "rimraf": "^3.0.2",
+    "rimraf": "^5.0.1",
     "run-script-os": "^1.1.6"
   }
 }
