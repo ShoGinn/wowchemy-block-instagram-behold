@@ -10,8 +10,16 @@
 {{ $username := $block.Params.instagram.username }}
 
 {{ if $behold_id }}
-  <div class="py-5" data-behold-id="{{ $behold_id }}"></div>
-  <script src="https://w.behold.so/widget.js" type="module"></script>
+  <behold-widget feed-id="{{ $behold_id }}"></behold-widget>
+  <script>
+    if ("noModule" in HTMLScriptElement.prototype) {
+      const d = document,
+        s = d.createElement("script");
+      s.type = "module";
+      s.src = "https://w.behold.so/widget.js";
+      d.body.appendChild(s);
+    }
+  </script>
 {{ end }}
 
 {{ if $username }}
