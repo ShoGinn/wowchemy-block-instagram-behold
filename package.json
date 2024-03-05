@@ -1,7 +1,7 @@
 {
   "name": "shoginn.instagram-behold",
   "description": "Wowchemy Block to enable an instagram feed threw behold.so.",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "license": "MIT",
   "repository": "shoginn/wowchemy-block-instagram-behold",
   "author": "Scott Ginn",
